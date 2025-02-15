@@ -1,6 +1,35 @@
+body {
+    background-color: darkslategray;
+    color:white;
+}
 
 h1,
 h2,
 h3 {
     font-family:Copperplate, serif;
+    background-color: rgb(0,0,0,0.3);
+}
+
+
+h1 {
+    background-color: seagreen;
+}
+
+img {
+    width:300px;
+    height:auto;
+}
+
+a {
+    color: white;
+}
+
+.title {
+    text-align: center;
+    font-size:33px;
+    
+}
+
+#recipes {
+    font-size:30px;
 }
