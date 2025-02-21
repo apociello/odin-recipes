@@ -1,6 +1,8 @@
 body {
     background-color: darkslategray;
     color:white;
+    width:800px;
+    margin: 0 auto;
 }
 
 h1,
@@ -8,12 +10,15 @@ h2,
 h3 {
     font-family:Copperplate, serif;
     background-color: rgb(0,0,0,0.3);
+    text-align: center;
 }
 
 
 h1 {
-    background-color: seagreen;
-}
+    background-color: rgb(51, 123, 51, 0.9);
+    margin-top: 30px;
+    border-radius: 5px;
+}   
 
 img {
     width:300px;
@@ -21,7 +26,15 @@ img {
 }
 
 a {
-    color: white;
+    color:white;
+    display: inline-block;
+    background-color: rgb(51, 123, 51, 0.5);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.fondo {
+    background-color: darkslategray ;
 }
 
 .title {
@@ -32,4 +45,37 @@ a {
 
 #recipes {
     font-size:30px;
+}
+
+p {
+    padding: 10px 16px;
+}
+
+ul,
+ol {
+    padding: 10px 32px;
+}
+
+li {
+    padding: 10px;
+}
+
+ol {
+    margin-bottom: 40px;
+}
+
+h3 {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.sub {
+    width: 500px;
+    margin: 0 auto;
+    padding-left: 70px;
+}
+
+#size {
+    width:600px;
+    height:auto;
 }
